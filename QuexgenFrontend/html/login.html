@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quexgen</title>
+    <link rel="stylesheet" href="/css/login.css">
+    <link rel="icon" href="/image/logo.png" type="image/x-icon">
+
+    <!--Links -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Dosis&family=Gajraj+One&family=Madimi+One&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Hammersmith+One&display=swap" rel="stylesheet">
+    <script src="/js/login.js"></script>
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center" style="height: 100vh;">
+            <div class="col-md-6">
+                <div class="cons position-relative">
+                    <a href="/html/index.html" class="position-absolute" style="top: 10px; right: 15px;"><img src="/image/xlogo.png" class="xlogo img-fluid"></a>
+                    <div class="logotitle d-flex align-items-center justify-content-center pt-3">
+                        <a href="/html/index.html" class="removeline d-flex">
+                            <img src="/image/logo.png" alt="Logo" class="logo img-fluid">
+                            <div class="title ml-2 mt-2"><span style="color:#ffc107">Q</span>UEXGEN</div>
+                        </a>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-container" id="loginForm">                            
+                            <h3 class="mb-4 text-center">Login</h3>
+                            <form>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Username" name="username" required autofocus>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Password" name="password" required>
+                                </div>
+                                <button class="btn btn-md btn-warning btn-block" type="submit">Login</button>
+                                <button class="btn btn-sm btn-link btn-block" onclick="toggleForm()">Don't have an account? Sign Up</button>
+                            </form>
+                        </div>
+    
+                        <div class="form-container" id="signupForm" style="display: none;">
+                            <h3 class="mb-4 text-center">Sign Up</h3>
+                            <form>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Full Name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Username" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="password" class="form-control" placeholder="Password" required>
+                                </div>
+                                <button class="btn btn-md btn-warning btn-block" type="submit">Sign Up</button>
+                                <button class="btn btn-sm btn-link btn-block" onclick="toggleForm()">Already have an account? Login</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+  <!-- Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>

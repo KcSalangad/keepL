@@ -1,0 +1,86 @@
+body {
+    background-color: #fcfbe8 !important; 
+}
+.container-fluid{
+    font-family: "Hammersmith One", sans-serif;
+
+}
+.title{
+    font-family: "Madimi One", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color:black;
+}
+.removeline{
+    text-decoration: none !important;
+}
+.logo{
+    max-height: 70px;
+}
+.card{
+    background: wheat;
+}
+.cons{
+    box-shadow: 0px 0px 5px black; 
+    border-radius: 10px; 
+    padding: 10px;
+    background: white;
+}
+.logotitle{
+    border-bottom: 1px solid #dadada;
+    padding-bottom:22px;
+}
+.form-container {
+  max-width: 300px;
+  padding: 20px;
+  padding-top:5px;
+  margin: 0 auto;
+}
+.form-container .form-group {
+  margin-bottom: 10px;
+  padding-bottom:10px;
+}
+.form-container button {
+  margin-top: 10px;
+}
+.btn.btn-md.btn-warning.btn-block {
+    border-radius: 20px; 
+}
+hr {
+    background-color: #a3a3a3; 
+}
+.form-control:focus {
+    border: #ffc107 !important;
+    box-shadow: 0 0 5px #ffc107 !important; 
+}
+.xlogo{
+    height: auto;
+    width: 18px;
+}
+.xlogo:hover{
+    height: auto;
+    width: 19px;
+}
+
+
+/* Tablet styles */
+@media (max-width: 768px) {
+    .title {
+        font-size: 30px; 
+    }
+    .logo {
+        max-height: 60px;
+    }
+ 
+}
+/* Phone styles */
+@media (max-width: 576px) {
+    .title {
+        font-size: 24px; 
+    }
+    .logo {
+        max-height: 50px;
+    }
+
+
+}

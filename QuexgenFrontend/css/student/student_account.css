@@ -1,0 +1,18 @@
+.logout:hover{
+    background-color: red !important;
+}
+
+/*tablet styles*/
+@media (max-width: 768px) {
+    
+}
+/*phone styles*/
+@media (max-width: 576px) {
+    .name{
+        display:none;
+    }
+    .dropdown-item {
+        padding: 0px; 
+        font-size: 14px; 
+    }
+}    
